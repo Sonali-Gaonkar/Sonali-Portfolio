@@ -1,0 +1,64 @@
+body {
+    
+    font-size: 18px;
+    font-family: 'Times new roman';
+    
+    box-sizing: border-box;
+    background-image: url("C:/Users/swapn/Desktop/New folder/col.avif");
+    background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.contain{
+	margin:50px;
+	padding:20px;
+	width:400px;
+	margin:50px auto 0;
+	color:black;
+	background-color:rgba(0,0,0,0.2);
+	font-size:16px;
+	border-radius:50px;
+	box-shadow: 5px 5px 15px;
+}
+
+nav {   
+    text-emphasis-color: black;
+    border-radius:10px;
+	box-shadow: 5px 5px 15px;
+   
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;    
+}
+
+nav a {
+    
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
